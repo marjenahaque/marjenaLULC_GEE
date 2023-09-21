@@ -8,10 +8,10 @@ This repository contains a Google Earth Engine (GEE) code for classifying Landsa
 1. Customize parameters like date, region of interest (ROI), and visualization options as needed.
 1. Run the script by clicking the "Run" button in the Code Editor.
 ## Code Overview
-**cloudMaskL457**
+**"cloudMaskL457"**
 This function masks clouds based on the pixel_qa band of Landsat SR data. It identifies bad pixels (clouds) and removes them from the imagery.
 
-**indices**
+**"indices"**
 This function calculates vegetation indices (NDVI and NDBI) from the Landsat imagery.
 
 ## Workflow
@@ -22,7 +22,7 @@ This function calculates vegetation indices (NDVI and NDBI) from the Landsat ima
   - Vegetation indices (NDVI and NDBI) are calculated using the indices function.
 2. **Visualization**
 
-  Landsat imagery, NDVI, and NDBI are visualized on the map.
+    Landsat imagery, NDVI, and NDBI are visualized on the map.
 3. **Land Cover Classification**
 
   - A Random Forest classifier is trained using training samples from predefined land cover classes based on selected bands.
