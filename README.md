@@ -20,15 +20,15 @@ This function calculates vegetation indices (NDVI and NDBI) from the Landsat ima
   - Landsat 5 imagery for the year 1990 is retrieved and filtered based on date and region of interest (ROI).
   - Clouds are masked using the cloudMaskL457 function.
   - Vegetation indices (NDVI and NDBI) are calculated using the indices function.
-1. **Visualization**
+2. **Visualization**
 
   Landsat imagery, NDVI, and NDBI are visualized on the map.
-1. **Land Cover Classification**
+3. **Land Cover Classification**
 
   - A Random Forest classifier is trained using training samples from predefined land cover classes based on selected bands.
   - The trained classifier is validated, and its accuracy is assessed.
   - The classifier is applied to classify the Landsat imagery into land cover classes.
-1. **Result Visualization and Export**
+4. **Result Visualization and Export**
 
   - The resulting classification is visualized on the map.
   - The classified image is exported to Google Drive for further analysis.
