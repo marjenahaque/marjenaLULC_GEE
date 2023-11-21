@@ -32,7 +32,7 @@ This function calculates vegetation indices (NDVI and NDBI) from the Landsat ima
 
   - The resulting classification is visualized on the map.
   - The classified image is exported to Google Drive for further analysis.
-  - Contributing
+### **Contributing**
   - Contributions and improvements are welcome. If you find any issues or have suggestions, feel free to open an issue or create a pull   request.
 
 Note: Make sure to have the required datasets available and properly defined (e.g., **roi**, land cover classes) before running the script. Also, adjust any parameters based on your specific requirements.
