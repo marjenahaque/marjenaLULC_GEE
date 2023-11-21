@@ -28,6 +28,9 @@ This function calculates vegetation indices (NDVI and NDBI) from the Landsat ima
   - A Random Forest classifier is trained using training samples from predefined land cover classes based on selected bands.
   - The trained classifier is validated, and its accuracy is assessed.
   - The classifier is applied to classify the Landsat imagery into land cover classes.
+  - ![lulc](https://github.com/marjenahaque/marjenaLULC_GEE/assets/113544123/5c8052d6-9956-4834-81a0-e06529441352)
+  -         Layers of Natural image, (SWIR1+red+SWIR2), NDVI and classified image
+
 4. **Result Visualization and Export**
 
   - The resulting classification is visualized on the map.
